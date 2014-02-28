@@ -1,0 +1,28 @@
+{
+  "name": "its-upload-image",
+  "main": "its.min.js",
+  "version": "0.2.0",
+  "homepage": "https://github.com/jp-amis/its",
+  "authors": [
+    "JP <juaumlol@gmail.com>"
+  ],
+  "description": "ITS is a upload image component that uses ajax to upload images",
+  "keywords": [
+    "upload",
+    "image",
+    "ajax",
+    "form"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.5.0",
+    "jquery-form": "3.*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
