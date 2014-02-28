@@ -38,7 +38,12 @@
 		<div class="multiple" style="width: 300px; height: 300px;"></div>
 		<script>
 			$(document).ready(function () {
-				$("#image_1").ITS({});
+				$("#image_1").ITS({
+					image: "http://2.bp.blogspot.com/_reDb6Ye5nBU/TUcXL_5AMAI/AAAAAAAAAKY/OaOGCJ67qBc/s1600/vc-quer-saber-que-tipo-de-cabelo-mais-combina-com-vc-entao-veja-algumas-dicas.jpg",
+					onComplete: function(data) {
+						console.log(data);
+					}
+				});
 				$(".multiple").ITS({});
 			});
 		</script>

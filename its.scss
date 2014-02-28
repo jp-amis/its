@@ -11,9 +11,21 @@ $max-zIndex: 999999999999;
 		background-color: rgba(0,0,0,.8);
 		background-position: center center;
 		background-repeat: no-repeat;
-		position: absolute;
 		display: none;
+		position: absolute;		
 		z-index: $max-zIndex;
+		
+		.its-loading-txt {
+			line-height: 100%;
+			color: #fff;
+			font-size: 12px;
+			font-family: verdana;
+			height: 100%;
+			width: 100%;
+			text-align: center;
+			top: 46%;
+			position: relative;
+		}		
 	}
 
 	&.its-default-bg {
